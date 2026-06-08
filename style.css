@@ -1,0 +1,548 @@
+ body{margin: 0;
+            
+        }
+
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+    .navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: black;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 20px;
+}
+@media (max-width: 768px) {
+   .nav-link {margin: 8px;}
+    
+}
+
+.register-btn{
+    background-color: #077a6f;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px){
+
+    .logo-text{
+        font-size: 22px;
+    }
+
+    .register-btn{
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+}
+
+
+
+#section{width: 100%;
+height: auto;}
+.hero-section{background-image: url(img/banner_1.jpeg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+width: 100%;
+display: flex;
+margin-top: 0%;}
+@media (max-width: 768px) {
+    .hero-section{
+       height: 200px;
+      
+    
+}
+    }
+    
+
+
+.sec1{background-color: #252525;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+width: 100%;
+min-height: 450px;
+margin: 0%;
+padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .sec1{height: 700px;
+    text-align: center;
+   }
+    
+}
+
+.sec1-h3{
+    margin: 0 auto;
+    line-height: 1;
+    text-align:center;
+    font-size: 15px;
+    color: #077a6f;
+
+    background-color: #1c504b5d;
+    border-radius: 25px;
+    border: 1px solid rgb(4,122,116);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding:10px 20px;
+
+    width: fit-content;
+}
+
+@media (max-width: 768px) {
+    .sec1-h3{
+        margin-top: 2px;
+    }
+}
+
+.sec1-h1{margin: 10px 0 5px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+     .sec1-h1{font-size: 28px;}
+    
+}
+
+.sec1-p{margin: 0;
+text-align: center;
+color: #676666;
+font-size: 20px;}
+
+@media (max-width: 768px) {
+ 
+    .sec1-p{font-size:13px ;}
+    
+}
+
+.stu-boxes{display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+justify-content: center;
+cursor: pointer;}
+
+.stu-box{background-color:#5f606054;
+width: 15%;
+height: 150px;
+border-radius: 10px;
+border: 1px solid rgb(4,122, 116);
+margin-top: 50px;
+color: #fff;
+line-height: 1;
+
+}
+
+@media (max-width: 768px) {
+    .stu-box{width: 28%;
+    padding: 15px;}
+}
+
+.h1{color: #077a6f;
+font-size: 50px;}
+
+ .our-services{
+    width: 100%;
+   min-height: 680px;
+    text-align: center;
+    background-color: #acc9c65f;
+    display: flex;
+    padding-top: 80px;
+flex-direction: column;
+ }
+ .services-h3{
+    margin: 0 auto;
+    text-align:center;
+    font-size: 15px;
+    color: #077a6f;
+
+    background-color: #9edad45b;
+    border-radius: 25px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding:5px 20px;
+
+    width:fit-content ;
+    
+ }
+ .services-h1{color: #000;
+          font-size: 55px;
+        font-family: 'Times New Roman', Times, serif;
+    gap: 0;
+margin: 0;
+padding-top: 7px;}
+.serv-boxes{display: flex;
+    gap: 68px;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.serv-box1{background-image: url(https://website-assests-v2.s3.us-east-1.amazonaws.com/images/ittraining.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 26%;
+height: 250px;
+border-bottom-right-radius: 0px;
+border-bottom-right-radius:0px ;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+
+margin-top: 50px;
+color: #fff;
+}
+ 
+@media (max-width: 768px) {
+    .serv-box1{
+        width: 70%;
+    }
+    
+}
+
+.serv-box2{background-image: url(https://website-assests-v2.s3.us-east-1.amazonaws.com/images/incubation.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 26%;
+height: 250px;
+border-bottom-right-radius: 0px;
+border-bottom-right-radius:0px ;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+margin-top: 50px;
+color: #fff;
+}
+
+@media (max-width: 768px) {
+    .serv-box2{width: 70%;
+    margin-top: 120px;}
+}
+
+.serv-box3{background-image: url(https://website-assests-v2.s3.us-east-1.amazonaws.com/images/qabiljobs.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 26%;
+height: 250px;
+border-bottom-right-radius: 0px;
+border-bottom-right-radius:0px ;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+margin-top: 50px;
+color: #fff;
+}
+
+@media (max-width:768px) {
+    .serv-box3{
+        width: 70%;
+        margin-top: 120px;
+    }
+    
+}
+
+.advance-boxes{display: flex;
+    gap: 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.advance{background-color: #fff;
+width: 26%;
+height: 150px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom: 1px solid rgb(4,122, 116);
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+margin-top: 0px;
+text-align: justify;
+padding: 0px 10px;
+padding-bottom: 40px;
+margin-left: 0;
+
+}
+
+@media (max-width: 768px) {
+    .advance{
+        width: 70%;
+        margin-top: -890px;
+    }
+   
+}
+
+.stretigic{background-color: #fff;
+width: 26.1%;
+height: 150px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom: 1px solid rgb(4,122, 116);
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+margin-top: 0px;
+color: #000;
+text-align: justify;
+padding: 0px 10px;
+padding-bottom: 40px;
+margin-left: px;
+margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .stretigic{
+        width: 70%;
+        margin-top: -510px;
+    }
+   
+}
+
+.dedicated{background-color: #fff;
+width: 26%;
+height: 150px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom: 1px solid rgb(4,122, 116);
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+margin-top: 0px;
+color: #000;
+text-align: justify;
+padding: 0px 5px;
+padding-bottom: 40px;
+margin-left: 1px;
+}
+@media (max-width: 768px) {
+    .dedicated{
+        width: 70%;
+        margin-top: -170px;
+    }
+   
+}
+
+
+
+.Latest-Updates{
+    width: 100%;
+    min-height: 680px;
+    text-align: center;
+    background-color: #ffffffeb;
+    display: flex;
+    padding-top: 80px;
+flex-direction: column;
+ }
+ .latest-h3{
+    margin: 0 auto;
+    text-align:center;
+    font-size: 15px;
+    color: #077a6f;
+
+    background-color: #9edad45b;
+    border-radius: 25px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding:5px 20px;
+
+    width:fit-content ;
+    
+ }
+ .latest-h1{color: #000;
+          font-size: 55px;
+        font-family: 'Times New Roman', Times, serif;
+    gap: 0;
+margin: 0;
+padding-top: 7px;}
+.latest-boxes{display: flex;
+    gap: 68px;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.latest-box1{background-image: url(../img/latest-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 28%;
+height: 250px;
+border-bottom-right-radius: 0px;
+border-bottom-right-radius:0px ;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+
+margin-top: 50px;
+color: #fff;
+}
+ 
+@media (max-width: 768px) {
+    .latest-box1{
+        width: 70%;
+    }
+    
+}
+
+.latest-box2{background-image: url(../img/latest-2.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 28%;
+height: 250px;
+border-bottom-right-radius: 0px;
+border-bottom-right-radius:0px ;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+margin-top: 50px;
+color: #fff;
+}
+
+@media (max-width: 768px) {
+    .latest-box2{width: 70%;
+    margin-top: 180px;}
+}
+
+.latest-box3{background-image: url(../img/latest-3.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 28%;
+height: 250px;
+border-bottom-right-radius: 0px;
+border-bottom-right-radius:0px ;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+margin-top: 50px;
+color: #fff;
+}
+
+@media (max-width:768px) {
+    .latest-box3{
+        width: 70%;
+        margin-top: 180px;
+    }
+    
+}
+
+.alibaba-boxes{display: flex;
+    gap: 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.alibaba{background-color: #fff;
+width: 28%;
+height: 200px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom: 1px solid rgb(4,122, 116);
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+margin-top: 0px;
+text-align: justify;
+padding: 0px 10px;
+padding-bottom: 40px;
+margin-left: 0;
+
+}
+
+@media (max-width: 768px) {
+    .alibaba{
+        width: 70%;
+        margin-top: -1000px;
+        height: 228px;
+    }
+   
+}
+.ali-h3{font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.ali-h3:hover{color: #077a6f;}
+
+.registration{background-color: #fff;
+width: 28.1%;
+height: 200px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom: 1px solid rgb(4,122, 116);
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+margin-top: 0px;
+color: #000;
+text-align: justify;
+padding: 0px 10px;
+padding-bottom: 40px;
+margin-left: px;
+margin-right: 0;
+}
+
+@media (max-width: 768px) {
+   .registration {
+        width: 70%;
+        margin-top: -570px;
+    }
+   
+}
+.reg-h3{font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.reg-h3:hover{color: #077a6f;}
+
+.gaming{background-color: #fff;
+width: 28%;
+height: 200px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom: 1px solid rgb(4,122, 116);
+box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+margin-top: 0px;
+color: #000;
+text-align: justify;
+padding: 0px 5px;
+padding-bottom: 40px;
+margin-left: 1px;
+}
+@media (max-width: 768px) {
+    .gaming{
+        width: 70%;
+        margin-top: -140px;
+    }
+   
+}
+
+.gam-h3{font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.gam-h3:hover{color: #077a6f;}
+
