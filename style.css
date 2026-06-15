@@ -414,7 +414,7 @@ color: #fff;
     
 }
 
-.latest-box2{background-image: url(../img/latest-2.png);
+.latest-box2{background-image: url(/img/latest-2.png);
      background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -433,7 +433,7 @@ color: #fff;
     margin-top: 180px;}
 }
 
-.latest-box3{background-image: url(../img/latest-3.jpg);
+.latest-box3{background-image: url(/img/latest-3.jpg);
      background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
